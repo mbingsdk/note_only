@@ -186,4 +186,3 @@ Server kamu sekarang bisa mengakses:
 
 ---
 
-🧠 Butuh auto-deploy via GitHub/Webhook/CI? Tambahkan saja, nanti bisa bantu juga setup-nya.
