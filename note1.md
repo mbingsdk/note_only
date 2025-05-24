@@ -183,17 +183,6 @@ Server kamu sekarang bisa mengakses:
 
 ---
 
-### 🔄 Bonus: Build & Deploy React Frontend (opsional)
-
-Jika kamu ingin React frontend jalan di domain utama dan API di subdomain:
-
-* Build React:
-
-  ```bash
-  npm run build
-  ```
-* Copy isi `build/` ke folder publik, misal `/var/www/html/`
-* Tambahkan konfigurasi `location /` pada NGINX sesuai folder tersebut
 
 ---
 
