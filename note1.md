@@ -198,6 +198,7 @@ Kalau masih Etc/UTC (UTC, +0000)
 Ubah dengan Timezonemu:
 ```bash
 sudo timedatectl set-timezone Asia/Makassar
+timedatectl
 ```
 
 ---
