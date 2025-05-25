@@ -183,6 +183,22 @@ Server kamu sekarang bisa mengakses:
 
 ---
 
+## Cek Timezone
+```bash
+timedatectl
+               Local time: Sun 2025-05-25 05:26:13 UTC
+           Universal time: Sun 2025-05-25 05:26:13 UTC
+                 RTC time: Sun 2025-05-25 05:26:13
+                Time zone: Etc/UTC (UTC, +0000)
+System clock synchronized: yes
+              NTP service: active
+          RTC in local TZ: no
+```
+Kalau masih Etc/UTC (UTC, +0000)
+Ubah dengan Timezonemu:
+```bash
+sudo timedatectl set-timezone Asia/Makassar
+```
 
 ---
 
