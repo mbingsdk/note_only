@@ -89,6 +89,14 @@ server {
     proxy_set_header Host $host;
     proxy_cache_bypass $http_upgrade;
   }
+
+  # Hide Nginx version
+  server_tokens off;
+
+  # Block sensitive files
+  location ~* \.(env|git|sql|sh)$ {
+    deny all;
+  }
 }
 ```
 
